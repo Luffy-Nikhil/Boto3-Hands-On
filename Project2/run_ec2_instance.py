@@ -19,9 +19,10 @@ response = ec2_client.run_instances(
            'Tags': [
                {
                    'Key': 'Name',
-                   'Value': 'Boto3_Automated_VM1'
+                   'Value': 'Boto3_Automated_VM2'
                },
            ]
        },
     ]
 )
+
